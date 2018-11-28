@@ -49,7 +49,7 @@ var trivia = [
     },
     {
         question: ["What is this animal's name?", "(a) Wiley", "(b) FreeWhaley", "(c) Willy", "(d) Flipper"],
-        answer: ["c","(a) Wiley"],
+        answer: ["c", "(c) Willy"],
         image: "assets/images/willy.jpg"
     },
     {
@@ -287,7 +287,7 @@ function startSlideshow() {
     }
     else {
         $("#myModal").modal({show: true}); // opens the dialog box at the end of the game
-        $("#finalScore").html("You Answered  "+ score +"  out of 23<br> Questions Correctly.");
+        $("#finalScore").html("You Answered  "+ score +"  of 23<br> Questions Correctly.");
        
         count = 0;
         number = 10;
